@@ -44,7 +44,7 @@ public class ClassEx_10 {
 		bookService.bookInfo(booklist[1]);
 		bookService.bookInfo(booklist[2]);
 		
-		bookservice.booklist(BookVO[] booklist);
+		bookService.booklist(booklist);
 		
 		
 	}

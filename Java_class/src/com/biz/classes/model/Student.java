@@ -1,4 +1,4 @@
-package com.biz.classis.model;
+package com.biz.classes.model;
 
 /*
  * 클래스에느 변수, method 가 존재한다.

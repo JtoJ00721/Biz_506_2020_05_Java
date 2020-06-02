@@ -1,4 +1,4 @@
-package com.biz.classis.model;
+package com.biz.classes.model;
 
 public class ClassEx_03 {
 

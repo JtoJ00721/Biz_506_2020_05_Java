@@ -1,6 +1,6 @@
 package com.biz.classis;
 
-import com.biz.classis.model.BankVO;
+import com.biz.classes.model.BankVO;
 
 public class ClassEx_11 {
 

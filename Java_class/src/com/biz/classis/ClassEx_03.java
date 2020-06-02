@@ -1,6 +1,6 @@
 package com.biz.classis;
 
-import com.biz.classis.model.Address;
+import com.biz.classes.model.Address;
 
 public class ClassEx_03 {
 

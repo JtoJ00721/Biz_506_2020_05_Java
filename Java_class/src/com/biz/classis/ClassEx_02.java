@@ -1,6 +1,6 @@
 package com.biz.classis;
 
-import com.biz.classis.model.Student;
+import com.biz.classes.model.Student;
 
 public class ClassEx_02 {
 

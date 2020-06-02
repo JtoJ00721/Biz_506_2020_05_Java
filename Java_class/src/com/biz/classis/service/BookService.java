@@ -1,6 +1,6 @@
 package com.biz.classis.service;
 
-import com.biz.classis.model.BookVO;
+import com.biz.classes.model.BookVO;
 
 public class BookService {
 	

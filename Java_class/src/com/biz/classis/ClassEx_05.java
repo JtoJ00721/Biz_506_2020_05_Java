@@ -1,6 +1,6 @@
 package com.biz.classis;
 
-import com.biz.classis.model.ScoreVO;
+import com.biz.classes.model.ScoreVO;
 
 public class ClassEx_05 {
 
