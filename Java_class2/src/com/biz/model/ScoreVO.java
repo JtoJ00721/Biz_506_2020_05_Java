@@ -1,15 +1,14 @@
 package com.biz.model;
 
 public class ScoreVO {
-	
+
 	private String name;
 	private int kor;
 	private int eng;
-	private int Math;
+	private int math;
 	
 	private int stSum;
 	private int stAvg;
-	
 	
 	public int getStSum() {
 		return stSum;
@@ -42,11 +41,12 @@ public class ScoreVO {
 		this.eng = eng;
 	}
 	public int getMath() {
-		return Math;
+		return math;
 	}
 	public void setMath(int math) {
-		Math = math;
+		this.math = math;
 	}
+	
 	
 	
 	
