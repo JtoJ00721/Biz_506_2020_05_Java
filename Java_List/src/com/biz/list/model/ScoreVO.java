@@ -1,15 +1,15 @@
-package com.biz.score.vo;
+package com.biz.list.model;
 
 public class ScoreVO {
 	
-	private String num;
+	String num;
 	private int kor;
 	private int eng;
 	private int math;
-	private int music;
 	
 	private int stSum;
 	private int stAvg;
+	
 	
 	
 	public int getStSum() {
@@ -48,12 +48,11 @@ public class ScoreVO {
 	public void setMath(int math) {
 		this.math = math;
 	}
-	public int getMusic() {
-		return music;
-	}
-	public void setMusic(int music) {
-		this.music = music;
-	}
-	
 
+	
+	
+	
+	
+	
+	
 }
