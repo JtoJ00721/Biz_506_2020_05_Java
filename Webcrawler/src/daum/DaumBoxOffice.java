@@ -33,6 +33,6 @@ public class DaumBoxOffice {
 			System.out.println("영화코드 : " + daumCode);
 
 		}
-
+		
 	}
 }
