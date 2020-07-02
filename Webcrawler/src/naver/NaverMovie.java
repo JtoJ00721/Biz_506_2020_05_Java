@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class NaverMovie {
@@ -33,7 +34,7 @@ public class NaverMovie {
 				prePage = nowPage;
 			}
 
-			for (int i = 0; i < movieList.size(); i++) {
+			for (Element one : movieList) {
 
 				int score = 0;
 				String contents = "";
@@ -42,11 +43,11 @@ public class NaverMovie {
 				String writedate = "";
 				String writer = "";
 
-				score = Integer.parseInt(movieList.select("div.star_score > em").get(i).text());
-				contents = movieList.select("div.score_reple > p").get(i).text();
+				score = Integer.parseInt(one.select("div.star_score > em").text());
+				contents = one.select("div.score_reple > p").text();
 
-				forWriter = movieList.select("div.score_reple > dl > dt > em > a > span").get(i).text();
-				forwritedate = movieList.select("div.score_reple > dl > dt > em").text();
+				forWriter = one.select("div.score_reple > dl > dt > em > a > span").text();
+				forwritedate = one.select("div.score_reple > dl > dt > em").text();
 
 				if (forwritedate.contains(")")) {
 					String cutdate = forwritedate.substring(forwritedate.lastIndexOf(")") + 2, forwritedate.length());
