@@ -37,7 +37,7 @@ public class ScoreEx_03 {
 			float floatAvg = (float)intSum / 3;
 
 			// System.out.printf();
-			String score = String.format("%05d : %d : %d : %d : %d : %06.2f\n",
+			String score = String.format("%05d:%d:%d:%d:%d:%06.2f\n",
 					i + 1, intKor, intEng, intMath, intSum, floatAvg);
 			outPut.print(score);
 
