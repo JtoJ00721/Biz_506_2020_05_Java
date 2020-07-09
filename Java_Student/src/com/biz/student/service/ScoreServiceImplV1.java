@@ -161,7 +161,6 @@ public class ScoreServiceImplV1 implements ScoreService {
 		System.out.println("==========================================================");
 		System.out.println("학번\t이름\t국어\t영어\t수학\t총점\t평균");
 		System.out.println("----------------------------------------------------------");
-		int size = scoreList.size();
 		for (ScoreVO sVO : scoreList) {
 
 			System.out.print(sVO.getNum() + "\t");
