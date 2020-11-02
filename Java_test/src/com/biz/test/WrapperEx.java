@@ -35,7 +35,7 @@ public class WrapperEx {
 		Integer num2 = 20;
 		/*
 		 * num2 객체를 num3인 primitive 변수에 저장(할당)
-		 * 일반적인 클래스에서는 물가능하지만
+		 * 일반적인 클래스에서는 불가능하지만
 		 * wrapper 클래스에서는 가능하며
 		 * 클래스를 값으로 벗겨내어 일반 변후에 저장
 		 * unBoxing 기능
